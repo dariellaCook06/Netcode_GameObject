@@ -15,7 +15,7 @@ public class PlayerController : NetworkBehaviour
         NetworkVariableWritePermission.Server
         );
     // Declaramos el nombre del jugador (se inicializa en cadena vacía para evitar discrepancias de sincronización inicial)
-    private readonly NetworkVariable<FixedString32Bytes> PlayerName = new NetworkVariable<FixedString32Bytes>("",
+    private readonly NetworkVariable<FixedString32Bytes> PlayerName = new NetworkVariable<FixedString32Bytes>("Jugador",
         NetworkVariableReadPermission.Everyone,
         NetworkVariableWritePermission.Server
         );
