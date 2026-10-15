@@ -104,3 +104,11 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+
+# Archivos locales y generados de Ejercicio4
+/Ejercicio4/UserSettings/
+/Ejercicio4/build/
+/Ejercicio4/.vsconfig
+/Ejercicio4/a
+
