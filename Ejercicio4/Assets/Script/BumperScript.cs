@@ -39,9 +39,6 @@ public class BumperScript : NetworkBehaviour
             // Calculamos la dirección contraria al bumper
             Vector3 impulsoCollision = jugadorRB.worldCenterOfMass - transform.position;
 
-            // Evitamos que el jugador salga impulsado hacia arriba o abajo
-            //impulsoCollision.y = 0f;
-
             // Comprobamos que la dirección sea correcta
             if (impulsoCollision.sqrMagnitude > 0.001f)
             {
