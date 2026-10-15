@@ -38,7 +38,7 @@ public class ProjectilScript : NetworkBehaviour
     // Eliminamos el proyectil
     private void EliminarProyectil()
     {
-        if (IsServer && IsSpawned)
+        if (IsServer)
         {
             GetComponent<NetworkObject>().Despawn(true);
         }
